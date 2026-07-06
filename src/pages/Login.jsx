@@ -18,7 +18,7 @@ export default function Login({ onLogin }) {
     } catch (err) {
       setError(err.response?.data?.error || 'Invalid credentials')
     }
-    setLoading(false)
+    setLoading(false) 
   }
 
   return (
